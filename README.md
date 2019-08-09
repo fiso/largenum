@@ -10,14 +10,14 @@ Transforms large numbers into more easily digestible english.
 ```js
 const {largenum} = require('largenum');
 
+console.log(largenum(64e63));
+// '64 vigintillion'
+
 console.log(largenum(1e100));
 // '1 googol'
 
 console.log(largenum(1e100, {exclusions: [1e100]}));
 // '10 duotrigintillion'
-
-console.log(largenum(64e63));
-// '64 vigintillion'
 
 console.log(largenum(14e63, {max: 1e12}));
 // '14 thousand trillion trillion trillion trillion trillion'
