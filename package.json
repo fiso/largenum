@@ -5,6 +5,7 @@
   "main": "index.js",
   "author": "Filip Haglund",
   "license": "ISC",
+  "repository": "https://github.com/fiso/largenum",
   "scripts": {
     "test": "jest"
   },
