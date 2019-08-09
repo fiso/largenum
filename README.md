@@ -1,5 +1,7 @@
 # Largenum
+
 [![Build Status](https://travis-ci.com/fiso/largenum.svg?branch=master)](https://travis-ci.com/fiso/largenum)
+[![Coverage Status](https://coveralls.io/repos/github/fiso/largenum/badge.svg?branch=master)](https://coveralls.io/github/fiso/largenum?branch=master)
 
 Transforms large numbers into more easily digestible english.
 

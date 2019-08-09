@@ -7,9 +7,10 @@
   "license": "ISC",
   "repository": "https://github.com/fiso/largenum",
   "scripts": {
-    "test": "jest"
+    "test": "jest --coverage --coverageReporters=text-lcov | coveralls"
   },
   "devDependencies": {
+    "coveralls": "^3.0.6",
     "jest": "^24.8.0"
   }
 }
