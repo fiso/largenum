@@ -1,4 +1,5 @@
 # Largenum
+[![Build Status](https://travis-ci.com/fiso/largenum.svg?branch=master)](https://travis-ci.com/fiso/largenum)
 
 Transforms large numbers into more easily digestible english.
 
