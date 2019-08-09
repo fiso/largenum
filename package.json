@@ -1,5 +1,5 @@
 {
-  "name": "largenum",
+  "name": "@fhaglund/largenum",
   "version": "1.0.0",
   "description": "Transforms large numbers into more easily digestible english",
   "main": "index.js",
