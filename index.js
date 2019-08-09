@@ -1,4 +1,5 @@
 if (!Array.prototype.flat) {
+  // Polyfill from https://github.com/jonathantneal/array-flat-polyfill
 	Object.defineProperty(Array.prototype, 'flat', {
 		configurable: true,
 		value: function flat () {
@@ -8,6 +9,7 @@ if (!Array.prototype.flat) {
 				if (Array.isArray(cur)) {
 					acc.push.apply(acc, flat.call(cur, depth - 1));
 				} else {
+          /* istanbul ignore next */
 					acc.push(cur);
 				}
 
@@ -72,6 +74,7 @@ const exponents = [
     return 1;
   }
 
+  /* istanbul ignore next */
   return 0;
 });
 
@@ -99,7 +102,7 @@ function largenum (n, {
       continue;
     }
 
-    while (BigInt(n) > BigInt(exponent.n) - 1n) {
+    while (BigInt(n) > BigInt(exponent.n) - BigInt(1)) {
       n = Math.round(n / exponent.n);
       str = ` ${exponent.name}${str}`;
     }

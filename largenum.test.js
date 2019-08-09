@@ -33,10 +33,12 @@ test('Convert 1e90 to 1 novemvigintillion', () => expect(largenum(1e90)).toBe('1
 test('Convert 1e93 to 1 trigintillion', () => expect(largenum(1e93)).toBe('1 trigintillion'));
 test('Convert 1e96 to 1 untrigintillion', () => expect(largenum(1e96)).toBe('1 untrigintillion'));
 test('Convert 1e99 to 1 duotrigintillion', () => expect(largenum(1e99)).toBe('1 duotrigintillion'));
-// test('Convert 1e100 to 1 googol', () => expect(largenum(1e100)).toBe('1 googol'));
+test('Convert 1e100 to 1 googol', () => expect(largenum(1e100)).toBe('1 googol'));
 test('Convert 1e102 to 1 tretrigintillion', () => expect(largenum(1e102)).toBe('1 tretrigintillion'));
 test('Convert 1e105 to 1 quattuortrigintillion', () => expect(largenum(1e105)).toBe('1 quattuortrigintillion'));
-// test('Convert 1e303 to 1 centillion', () => expect(largenum(1e303)).toBe('1 centillion'));
+test('Convert 1e303 to 1 centillion', () => expect(largenum(1e303)).toBe('1 centillion'));
+
+test('Convert -1e54 to negative 1 septendecillion', () => expect(largenum(-1e54)).toBe('negative 1 septendecillion'));
 
 test('Convert 1e100 with max 1e12', () => expect(largenum(1e100, {max: 1e12})).toBe('10 thousand trillion trillion trillion trillion trillion trillion trillion trillion'));
 
