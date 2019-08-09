@@ -1,0 +1,14 @@
+{
+  "name": "largenum",
+  "version": "1.0.0",
+  "description": "Transforms large numbers into more easily digestible english",
+  "main": "index.js",
+  "author": "Filip Haglund",
+  "license": "ISC",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
+}
