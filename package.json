@@ -1,6 +1,6 @@
 {
   "name": "@fhaglund/largenum",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Transforms large numbers into more easily digestible english",
   "main": "index.js",
   "author": "Filip Haglund",
