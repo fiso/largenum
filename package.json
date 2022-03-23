@@ -2,10 +2,10 @@
   "name": "@fhaglund/largenum",
   "version": "1.0.1",
   "description": "Transforms large numbers into more easily digestible english",
-  "main": "index.js",
   "author": "Filip Haglund",
   "license": "ISC",
   "repository": "https://github.com/fiso/largenum",
+  "main": "index.js",
   "scripts": {
     "test": "jest --coverage --coverageReporters=text-lcov | coveralls"
   },

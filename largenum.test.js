@@ -1,4 +1,4 @@
-const {largenum, exponents, generatedExponents} = require('./index.js');
+const {largenum} = require('./index.js');
 
 test('Convert 1e3 to 1 thousand', () => expect(largenum(1e3)).toBe('1 thousand'));
 test('Convert 1e6 to 1 million', () => expect(largenum(1e6)).toBe('1 million'));
